@@ -124,3 +124,10 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 conda deactivate
+
+# -------
+# aliases
+# -------
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
